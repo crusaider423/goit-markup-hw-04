@@ -71,10 +71,10 @@ body {
   right: 24px;
   border-radius: 50%;
   border: none;
-  outline: transparent      ;
+  outline: transparent;
 }
 .modal-btn:hover,
-.modal-btn:focus{
+.modal-btn:focus {
   background-color: var(--pressed_state-ocean);
   fill: var(--bg_page-white);
 }
@@ -346,14 +346,11 @@ a {
   display: flex;
   gap: 24px;
   justify-content: center;
-  
 }
-.team-item-icon{
-  
+.team-item-icon {
 }
 .team-icon-ref {
   color: var(--green);
-  
 }
 .team-icon-wrap {
   display: flex;
@@ -366,7 +363,6 @@ a {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .team-icon-ref:hover .team-icon-wrap,
 .team-icon-ref:focus .team-icon-wrap {
@@ -387,10 +383,8 @@ a {
 .customers-list {
   display: flex;
   gap: 24px;
-  
 }
 .customers-item {
-  
 }
 
 .customers-wrap-item {
@@ -438,6 +432,7 @@ a {
 .footer .logo {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 0;
 }
 .footer .logo-span {
   color: var(--cloud);
