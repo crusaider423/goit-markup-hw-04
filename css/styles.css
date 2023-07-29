@@ -497,14 +497,16 @@ a {
   gap: 16px;
 }
 .fotter-social-item {
+  width: 40px;
+  height: 40px;
 }
 .footer-social-wrap {
   
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: var(--iris, #4d5ae5);
   border-radius: 50%;
   transition-property: background-color;
@@ -512,9 +514,7 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-ref {
-  display: flex;
-  height: 100%;
-  width: 100%;
+
 }
 .fotter-social-ref:hover .footer-social-wrap,
 .fotter-social-ref:focus .footer-social-wrap {
