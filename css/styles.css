@@ -523,6 +523,7 @@ a {
   background-color: var(--green);
 }
 .footer-social-icon {
+  fill:  #f4f4fd;
 }
 /*! Portfolio */
 /** ------------------ main------------------------- */
