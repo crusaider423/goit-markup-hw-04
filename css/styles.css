@@ -496,12 +496,17 @@ a {
   display: flex;
   gap: 16px;
 }
-.fotter-social-item {
+.footer-social-item {
   width: 40px;
   height: 40px;
+  
 }
 .footer-social-wrap {
-  display: flex;
+ 
+}
+.footer-social-ref {
+
+ display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -511,12 +516,10 @@ a {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-ref {
  
 }
-.fotter-social-ref:hover .footer-social-wrap,
-.fotter-social-ref:focus .footer-social-wrap {
+.footer-social-ref:hover,
+.footer-social-ref:focus{
   background-color: var(--green);
 }
 .footer-social-icon {
